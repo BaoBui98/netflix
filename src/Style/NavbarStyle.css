@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    height: 80px;
+    background-color: black;
+    align-items: center;
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+}
+.navbar-content-header h3, 
+.navbar-content-title span
+
+{
+
+    margin-right: 32px;
+    cursor: pointer;
+}
+.navbar-content-header h3 {
+    font-size: 30px;
+    color: yellow;
+}
+.navbar-content-title  {
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-content-title span:hover {
+    border-bottom: 1px solid yellowgreen;
+    padding-bottom: 4px;
+}
+.navbar-content-title a span {
+    color: white;
+}
+.navbar-content-title a .tilt-yellow {
+    color: yellow;
+}
+.navbar-input {
+    display: flex;
+    align-items: center;
+}
+.navbar-input input{
+    height: 40px;
+    width: 250px;
+    padding-left: 12px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    position: relative;
+}
+
+.navbar-search #search {
+  font-size: 25px;
+  color: black;  
+  position: absolute;
+  right: 200px;
+  top: 27px;
+}
+.navbar-switcher {
+    height: 35px;
+    width: 80px;
+    background-color: #ccc;
+    border-radius: 20px;
+    margin-left: 12px;
+    position: relative;
+    
+}
+.switcher-moved {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    transition: all .7s ease;
+}
+.switcher-mover {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 44px;
+  
+}
+.navbar-content-header #header-red {
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+
+
+ 
+    
